@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+body {
+  font-family: "Lato", "Noto Sans", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
+  line-height: 19px;
+  color: #121212; }
+
+.container {
+  max-width: 1280px; }
+
+code {
+  font-family: "Roboto Mono", monospace;
+  color: #2A8356 !important;
+  background: #EDF4EE !important;
+  padding: 0 4px;
+  border-radius: 2px; }
+
+a:hover {
+  text-decoration: none; }
+
+img {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+.h7 {
+  font-size: 14px; }
+
+.h8 {
+  font-size: 12px; }
+
+.text-primary {
+  color: #2A8356 !important; }
+
+.text-secondary {
+  color: #666666 !important; }
+
+.text-success {
+  color: #EDF4EE !important; }
+
+.text-info {
+  color: #CDDDCD !important; }
+
+.text-danger {
+  color: #E3006E !important; }
+
+.text-gray-300 {
+  color: #9e9e9e; }
+
+.text-gray-400 {
+  color: #707070; }
+
+.text-gray-500 {
+  color: #666666; }
+
+.text-gray-800 {
+  color: #121212; }
+
+.text-primary-hover:hover {
+  color: #2A8356 !important; }
+
+.text-hover-primary:hover {
+  color: #2A8356 !important; }
+
+.text-hover-success:hover {
+  color: #EDF4EE !important; }
+
+.text-hover-info:hover {
+  color: #CDDDCD !important; }
+
+.btn-outline-primary {
+  color: #2A8356 !important;
+  border-color: #2A8356 !important; }
+  .btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: #2A8356 !important;
+    border-color: #2A8356 !important; }
+
+.btn-outline-secondary {
+  color: #666666 !important;
+  border-color: #666666 !important; }
+  .btn-outline-secondary:hover {
+    color: #fff !important;
+    background-color: #666666 !important;
+    border-color: #666666 !important; }
+
+.btn-outline-success {
+  color: #EDF4EE !important;
+  border-color: #EDF4EE !important; }
+  .btn-outline-success:hover {
+    color: #fff !important;
+    background-color: #EDF4EE !important;
+    border-color: #EDF4EE !important; }
+
+.btn-outline-info {
+  color: #CDDDCD !important;
+  border-color: #CDDDCD !important; }
+  .btn-outline-info:hover {
+    color: #fff !important;
+    background-color: #CDDDCD !important;
+    border-color: #CDDDCD !important; }
+
+.btn-outline-danger {
+  color: #E3006E !important;
+  border-color: #E3006E !important; }
+  .btn-outline-danger:hover {
+    color: #fff !important;
+    background-color: #E3006E !important;
+    border-color: #E3006E !important; }
+
+.btn-outline-info.disabled, .btn-outline-info:disabled {
+  color: #CDDDCD !important;
+  border-color: #CDDDCD !important;
+  background: #fff !important; }
+
+.btn-primary {
+  background-color: #2A8356 !important;
+  border-color: #2A8356 !important; }
+
+.btn-secondary {
+  background-color: #666666 !important;
+  border-color: #666666 !important; }
+
+.btn-success {
+  background-color: #EDF4EE !important;
+  border-color: #EDF4EE !important; }
+
+.btn-info {
+  background-color: #CDDDCD !important;
+  border-color: #CDDDCD !important; }
+
+.btn-danger {
+  background-color: #E3006E !important;
+  border-color: #E3006E !important; }
+
+.border-primary {
+  border-color: #2A8356 !important; }
+
+.border-secondary {
+  border-color: #666666 !important; }
+
+.border-success {
+  border-color: #EDF4EE !important; }
+
+.border-info {
+  border-color: #CDDDCD !important; }
+
+.border-danger {
+  border-color: #E3006E !important; }
+
+.bg-primary {
+  background: #2A8356 !important; }
+
+.bg-success {
+  background-color: #EDF4EE !important; }
+
+.bg-info {
+  background: #CDDDCD !important; }
+
+.bg-danger {
+  background: #E3006E !important; }
+
+.mt-5, .my-5 {
+  margin-top: 32px !important; }
+
+.mt-6, .my-6 {
+  margin-top: 48px; }
+
+.mt-7, .my-7 {
+  margin-top: 64px; }
+
+.mb-5, .my-5 {
+  margin-bottom: 32px !important; }
+
+.mb-6, .my-6 {
+  margin-bottom: 48px; }
+
+.mb-7, .my-7 {
+  margin-bottom: 64px; }
+
+.ml-5, .mx-5 {
+  margin-left: 32px !important; }
+
+.mr-5, .mx-5 {
+  margin-right: 32px !important; }
+
+.ml-6, .mx-6 {
+  margin-left: 48px; }
+
+.mr-6, .mx-6 {
+  margin-right: 48px; }
+
+.mr-7, .mx-7 {
+  margin-right: 64px; }
+
+.pt-5, .py-5 {
+  padding-top: 32px !important; }
+
+.pt-6, .py-6 {
+  padding-top: 48px; }
+
+.pt-7, .py-7 {
+  padding-top: 64px; }
+
+.pb-5, .py-5 {
+  padding-bottom: 32px !important; }
+
+.pb-6, .py-6 {
+  padding-bottom: 48px; }
+
+.pb-7, .py-7 {
+  padding-bottom: 64px; }
+
+.pl-5, .px-5 {
+  padding-left: 32px !important; }
+
+.pr-5, .px-5 {
+  padding-right: 32px !important; }
+
+.pl-6, .px-6 {
+  padding-left: 48px; }
+
+.pr-6, .px-6 {
+  padding-right: 48px; }
+
+.pr-7, .px-7 {
+  padding-right: 64px; }
+
+.list-style-disc {
+  list-style-type: disc; }
+
+.logo {
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week5/logo-ANSWER.svg) no-repeat;
+  width: 151px;
+  height: 40px; }
+
+.sidebarNav {
+  width: 296px;
+  min-height: 100vh;
+  background-color: #EDF4EE !important; }
+
+.sidebarMenu-link {
+  color: #121212;
+  font-weight: 700; }
+  .sidebarMenu-link:hover {
+    color: #121212;
+    background: #CDDDCD !important; }
+  .sidebarMenu-link.active {
+    -webkit-box-shadow: 4px 0px 0px 0px #2A8356 inset;
+            box-shadow: 4px 0px 0px 0px #2A8356 inset;
+    color: #2A8356 !important; }
+
+.sidebarMenu-iconactive {
+  color: #2A8356 !important; }
+
+.account-pic {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center center; }
+
+.controlBody {
+  width: 984px; }
+
+.assignmentList-group .list-group-item.active, .assignmentList-group .list-group-item:hover {
+  z-index: 2;
+  color: #121212;
+  background-color: #EDF4EE !important;
+  border-color: #CDDDCD !important; }
+
+.assignmentCard-header {
+  border: 1px solid #CDDDCD !important;
+  border-radius: .25rem; }
+
+.assignmentCard .card-pic {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center center; }
+
+.assignmentCard .card-text {
+  line-height: 21px; }
+
+.assignmentCard-read {
+  padding: 1.25rem;
+  border-right: 1px solid #CDDDCD !important;
+  border-bottom: 1px solid #CDDDCD !important;
+  border-left: 1px solid #CDDDCD !important;
+  border-radius: 0 0  2px 2px; }
+  .assignmentCard-read.active {
+    display: none;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s; }
+
+.assignmentCard-reply {
+  display: none;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+  .assignmentCard-reply.active {
+    display: block;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s; }
+  .assignmentCard-reply textarea {
+    resize: none; }
+    .assignmentCard-reply textarea:focus {
+      outline: none; }
+
+.assignmentCard-reply-link {
+  color: #121212; }
+  .assignmentCard-reply-link:hover {
+    color: #2A8356 !important; }
+
+.table-hover tbody tr:hover {
+  background-color: #EDF4EE !important; }
+
+.table th {
+  border-top: none;
+  border-bottom: 1px solid #121212; }
+
+.table td {
+  vertical-align: middle;
+  border-bottom: 1px solid #CDDDCD !important; }
+
+.tableIcon-title {
+  width: 120px; }
+
+.table-icon {
+  border: none;
+  background: transparent; }
+  .table-icon:hover {
+    color: #2A8356 !important; }
+
+.page-link {
+  color: #121212;
+  border: 1px solid #2A8356 !important;
+  width: 32px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-link:hover {
+    color: #fff !important;
+    background: #2A8356 !important; }
+  .page-link.active {
+    color: #fff !important;
+    background: #2A8356 !important; }
+
+.pageIcon {
+  font-size: 16px;
+  line-height: 19px; }
+
+.visibility-pic {
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emir.jpeg?raw=true) no-repeat;
+  width: 141px;
+  height: 141px;
+  background-size: cover;
+  background-position: center center; }
+
+.verified-button:hover {
+  color: #121212; }
+
+.verified-button-text {
+  background: #EDF4EE !important; }
+
+.newAccount-form-group input {
+  border: 1px solid #121212; }
+
+.newAccountVerif-form-group button {
+  color: #2A8356 !important; }
+
+.account-form-control {
+  background-color: #EDF4EE !important;
+  border: none; }
+
+.account-form-control:focus {
+  border: 1px solid #000;
+  background-color: #fff !important;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
+/*# sourceMappingURL=all.css.map */
