@@ -1,0 +1,349 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="d-flex justify-content-between mb-6">
+    <div class="d-flex align-items-center">
+        <h3 class="h4 font-weight-bold mr-6 mb-0">Assignment</h3>
+        <a class="text-gray-800 d-flex align-items-center text-hover-primary" href="#">
+            All Courses
+            <span class="material-icons text-primary h6 mb-0 ml-2">
+                expand_more
+            </span>
+        </a>
+    </div>
+    <div class="d-flex">
+        <a class="mr-4" href="#">
+            <span class="material-icons text-gray-800 text-primary-hover">
+                search
+            </span>
+        </a>
+        <a href="#">
+            <span class="material-icons text-gray-800 text-primary-hover">
+                notifications_active
+            </span>
+        </a>
+    </div>
+</div>
+
+
+<div class="d-flex justify-content-between align-items-center mb-2">
+    <p class="d-flex align-items-center font-weight-blod mb-0">
+        ALL(4)
+        <a class="ml-2" href="#">
+            <span class="material-icons text-primary h6 mb-0">
+                expand_more
+            </span>
+        </a>
+    </p>
+    <span class="h8 text-gray-400">2 comments</span>
+</div>
+<section class="row">
+    <div class="col-5">
+        <ul class="assignmentList-group list-group" id="list-tab" role="tablist">
+            <!-- Emily Wang -->
+            <li>
+                <a class="list-group-item list-group-item-action active" id="list-Emilywang-list" data-toggle="list"
+                    href="#list-Emilywang" role="tab" aria-controls="Emilywang">
+                    <p class="h8 d-flex justify-content-between mb-1">
+                        Chapter Assignment 2
+                        <span>4 hrs ago</span>
+                    </p>
+                    <h4 class="h6 font-weight-bold d-flex justify-content-between mb-0">
+                        Please check this file…
+                        <span class="h8 text-gray-500 font-weight-normal">Emily Wang</span>
+                    </h4>
+                </a>
+            </li>
+            <!-- David Xu -->
+            <li>
+                <a class="list-group-item list-group-item-action border-top-0" id="list-Davidxu-list" data-toggle="list"
+                    href="#list-Davidxu" role="tab" aria-controls="Davidxu">
+                    <p class="h8 d-flex justify-content-between mb-1">
+                        Chapter Assignment 1
+                        <span>12 hrs ago</span>
+                    </p>
+                    <h4 class="h6 font-weight-bold d-flex justify-content-between mb-0">
+                        My Homework
+                        <span class="h8 text-gray-500 font-weight-normal">David Xu</span>
+                    </h4>
+                </a>
+            </li>
+            <!-- Tony Wei -->
+            <li>
+                <a class="list-group-item list-group-item-action border-top-0" id="list-Tonywei-list" data-toggle="list"
+                    href="#list-Tonywei" role="tab" aria-controls="Tonywei">
+                    <p class="h8 d-flex justify-content-between mb-1">
+                        Final Assignment
+                        <span>18 hrs ago</span>
+                    </p>
+                    <h4 class="h6 font-weight-bold d-flex justify-content-between mb-0">
+                        Have a problem with this…
+                        <span class="h8 text-gray-500 font-weight-normal">Tony Wei</span>
+                    </h4>
+                </a>
+            </li>
+            <!-- Christina Lin -->
+            <li>
+                <a class="list-group-item list-group-item-action border-top-0" id="list-Christinalin-list"
+                    data-toggle="list" href="#list-Christinalin" role="tab" aria-controls="Christinalin">
+                    <p class="h8 d-flex justify-content-between mb-1">
+                        Final Assignment
+                        <span>19 hrs ago</span>
+                    </p>
+                    <h4 class="h6 font-weight-bold d-flex justify-content-between mb-0">
+                        Did I do it right?
+                        <span class="h8 text-gray-500 font-weight-normal">Christina Lin</span>
+                    </h4>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-7">
+        <div class="assignmentTabb-content tab-content" id="nav-tabContent">
+            <!-- Emily Wang -->
+            <div class="tab-pane fade show active" id="list-Emilywang" role="tabpanel"
+                aria-labelledby="list-Emilywang-list">
+                <div class="assignmentCard card border-0">
+                    <div
+                        class="assignmentCard-header card-header bg-success d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="h8 d-block mb-1">Chapter Assignment 2 / HTML&CSS</span>
+                            <h4 class="h6 font-weight-bold mb-0">Please check this file for me, thanks!</h4>
+                        </div>
+                        <a class="text-gray-800 text-hover-primary" href="#">
+                            <span class="material-icons">
+                                more_vert
+                            </span>
+                        </a>
+                    </div>
+                    <div class="card-body border-left border-right border-info">
+                        <div class="d-flex mb-3">
+                            <div class="card-pic rounded-circle mr-2"
+                                style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emilywang.jpeg?raw=true)">
+                            </div>
+                            <h4 class="h6 mb-0">
+                                Emily Wang
+                                <span class="d-block h8 text-gray-400 mt-1">10:38 AM (4 hours ago)</span>
+                            </h4>
+                        </div>
+                        <p class="card-text h7">
+                            Hi Teacher, the attached file is my homework of chapter 2. And here comes a question:
+                            Why in the following code the height of the <code>div</code> is bigger than the height
+                            of the img ? There is a gap below the <code>image</code>, but it doesn’t seems to be a
+                            padding/margin.<br>What is the gap or extra space below image?
+                        </p>
+                        <button class="btn border-info bg-success font-weight-bold  d-flex align-items-center">
+                            <span class="material-icons mr-2">
+                                attach_file
+                            </span>
+                            HW-2-David.zip
+                        </button>
+                        <div class="dropdown-divider my-4"></div>
+                    </div>
+                    <div class="assignmentCard-below position-relative ">
+                        <!-- Read -->
+                        <div class="assignmentCard-read">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="d-flex">
+                                    <div class="card-pic rounded-circle mr-2"
+                                        style="background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true')">
+                                    </div>
+                                    <h4 class="h6 mb-0">
+                                        Andy Chen (You)
+                                        <span class="d-block h8 text-gray-400 mt-1">13:24 AM (1 hours ago)</span>
+                                    </h4>
+                                </div>
+                                <div class="d-flex">
+                                    <a class='text-gray-800 text-hover-primary mr-4' href="#">
+                                        <span class="material-icons">
+                                            star_border
+                                        </span>
+                                    </a>
+                                    <a class='text-gray-800 text-hover-primary' href="#">
+                                        <span class="material-icons">
+                                            create
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="card-text h7">
+                                Hi David, by default, an image is rendered inline, like a letter so it sits on the same
+                                line that a, b, c and d sit on. There is space below that line for the descenders you
+                                find on letters like g, j, p and q. <br>
+                                You can: 　<br>
+                            <ul class="list-style-disc h8">
+                                <li>
+                                    adjust the <code> vertical-align</code> of the image to position it elsewhere (e.g.
+                                    the <code> middle</code> ) or 　
+                                </li>
+                                <li>
+                                    change the <code> display</code> so it isn’t inline.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                        <!-- collapse _Reply -->
+                        <div class="assignmentCard-reply position-absolute border bg-white w-100 " id="collapseExample">
+                            <ul
+                                class="assignmentCard-reply-header d-flex justify-content-between bg-success border-bottom px-4 py-3">
+                                <li>
+                                    <a class="assignmentCard-reply-link d-flex align-items-center mr-4" href="#">
+                                        Body Text
+                                        <span class="material-icons">
+                                            arrow_drop_down
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="assignmentCard-reply-link mr-4" href="#">
+                                        <span class="material-icons">
+                                            format_bold
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="assignmentCard-reply-link mr-4" href="#">
+                                        <span class="material-icons">
+                                            format_italic
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="assignmentCard-reply-link mr-4" href="#">
+                                        <span class="material-icons">
+                                            format_list_bulleted
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="assignmentCard-reply-link mr-4" href="#">
+                                        <span class="material-icons">
+                                            format_list_numbered
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="assignmentCard-reply-link mr-4" href="#">
+                                        <span class="material-icons">
+                                            photo
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="assignmentCard-reply-link mr-4" href="#">
+                                        <span class="material-icons">
+                                            attach_file
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="assignmentCard-reply-link mr-4" href="#">
+                                        <span class="material-icons">
+                                            code
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="px-4 py-2">
+                                <textarea rows="6" class="border-0 w-100"
+                                    placeholder="Reply an answer…"></textarea>
+                                <div class="d-flex justify-content-end">
+                                    <button type="button"
+                                        class="assignmentCard--Toggle btn btn-outline-primary mr-3">Cancel</button>
+                                    <button type="button" class="btn btn-primary" type="button" data-toggle="collapse"
+                                        data-target="#collapseExample" aria-expanded="false"
+                                        aria-controls="collapseExample">Reply</button>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Button -->
+                        <div class="d-flex justify-content-between align-items-center mt-3 mb-5">
+                            <div class="d-flex">
+                                <a class="text-gray-800 text-hover-primary" href="#">
+                                    <span class="material-icons mr-4">
+                                        keyboard_arrow_left
+                                    </span>
+                                </a>
+                                <a class="text-gray-800 text-hover-primary" href="#">
+                                    <span class="material-icons">
+                                        navigate_next
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="d-flex">
+                                <button type="button" class="btn btn-outline-primary mr-3">Mark as
+                                    read</button>
+                                <button type="button" class="assignmentCard--Toggle btn btn-primary" type="button"
+                                    data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+                                    aria-controls="collapseExample">Reply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- David Xu -->
+            <div class="tab-pane fade" id="list-Davidxu" role="tabpanel" aria-labelledby="list-Davidxu-list">
+                <div class="assignmentCard card">
+                    <div class="card-header bg-success d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="h8 d-block mb-1">Chapter Assignment 1 / HTML&CSS</span>
+                            <h4 class="h6 font-weight-bold mb-0">My Homework</h4>
+                        </div>
+                        <a class="text-gray-800 text-hover-primary" href="#">
+                            <span class="material-icons">
+                                more_vert
+                            </span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        David Xu
+                    </div>
+                </div>
+            </div>
+            <!-- Tony Wei -->
+            <div class="tab-pane fade" id="list-Tonywei" role="tabpanel" aria-labelledby="list-Tonywei-list">
+                <div class="assignmentCard card">
+                    <div class="card-header bg-success d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="h8 d-block mb-1">Final Assignment / HTML&CSS</span>
+                            <h4 class="h6 font-weight-bold mb-0">Have a problem with this ...</h4>
+                        </div>
+                        <a class="text-gray-800 text-hover-primary" href="#">
+                            <span class="material-icons">
+                                more_vert
+                            </span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        Tony Wei
+                    </div>
+                </div>
+            </div>
+            <!-- Christina Lin -->
+            <div class="tab-pane fade" id="list-Christinalin" role="tabpanel" aria-labelledby="list-Christinalin-list">
+                <div class="assignmentCard card">
+                    <div class="card-header bg-success d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="h8 d-block mb-1">Final Assignment / HTML&CSS</span>
+                            <h4 class="h6 font-weight-bold mb-0">Did i do right ?</h4>
+                        </div>
+                        <a class="text-gray-800 text-hover-primary" href="#">
+                            <span class="material-icons">
+                                more_vert
+                            </span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        Christina Lin
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

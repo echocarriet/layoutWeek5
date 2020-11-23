@@ -1,0 +1,62 @@
+
+// list-group
+.assignment{
+    &List-group{
+        & .list-group-item.active, & .list-group-item:hover{
+            z-index: 2;
+            color: $gray-800;
+            background-color:$success;
+            border-color: $info;
+        }
+    }
+    &Card{
+        &-header{
+            border: 1px solid $info;
+            border-radius: .25rem;
+        }
+        & .card-pic{
+            width: 40px;
+            height: 40px;
+            background-size: cover;
+            background-position: center center;
+        }
+        & .card-text{
+            line-height: 21px;
+        }
+        &-read{
+            padding: 1.25rem;
+            border-right:1px solid $info;
+            border-bottom: 1px solid $info;
+            border-left:1px solid $info;
+            border-radius:0 0  2px 2px;
+            &.active{
+                display:none;
+                transition: all 1s;
+            }
+        }
+        &-reply{
+            display:none;
+            top: 0;
+            left: 0;
+            border-radius:2px;
+            transition: all 1s;
+            &.active{
+                display:block;
+                transition: all 1s;
+            }
+            & textarea{
+                resize: none;
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+        &-reply-link{
+            color:$gray-800;
+            &:hover{
+                color: $primary;
+            }
+        }
+    }
+    
+}

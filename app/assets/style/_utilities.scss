@@ -1,0 +1,247 @@
+// Font size
+.h{
+    &7{
+        font-size: $h7;
+    }
+    &8{
+        font-size: $h8;
+    }
+}
+// Font color
+.text{
+    &-primary{
+        color: $primary;
+    }
+    &-secondary{
+        color: $secondary;
+    }
+    &-success{
+        color: $success;
+    }
+    &-info{
+        color: $info;
+    }
+    &-danger{
+        color: $danger;
+    }
+    &-gray-300{
+        color: $gray-300;
+    }
+    &-gray-400{
+        color: $gray-400;
+    }
+    &-gray-500{
+        color: $gray-500;
+    }
+    &-gray-800{
+        color: $gray-800;
+    }
+}
+.text{
+    &-primary-hover{
+        &:hover{
+            color: $primary;
+        }
+    }
+}
+.text-hover{
+    &-primary:hover{
+        color:$primary;
+    }
+    &-success:hover{
+        color:$success;
+    }
+    &-info:hover{
+        color:$info;
+    }
+}
+
+//Btn color
+.btn-outline{
+    &-primary{
+        color: $primary;
+        border-color: $primary;
+        &:hover{
+            color: $white;
+            background-color:$primary;
+            border-color: $primary;
+        }
+    }
+    &-secondary{
+        color: $secondary;
+        border-color: $secondary;
+        &:hover{
+            color: $white;
+            background-color:$secondary;
+            border-color: $secondary;
+        }
+    }
+    &-success{
+        color: $success;
+        border-color: $success;
+        &:hover{
+            color: $white;
+            background-color:$success;
+            border-color: $success;
+        }
+    }
+    &-info{
+        color: $info;
+        border-color: $info;
+        &:hover{
+            color: $white;
+            background-color:$info;
+            border-color: $info;
+        }
+    }
+    &-danger{
+        color: $danger;
+        border-color: $danger;
+        &:hover{
+            color: $white;
+            background-color:$danger;
+            border-color: $danger;
+        }
+    }
+}
+.btn-outline-info.disabled , .btn-outline-info:disabled{
+    color:$info;
+    border-color: $info;
+    background: $white;
+}
+.btn{
+    &-primary{
+        background-color:$primary;
+        border-color: $primary;
+    }
+    &-secondary{
+        background-color: $secondary;
+        border-color: $secondary;
+    }
+    &-success{
+        background-color: $success;
+        border-color: $success;
+    }
+    &-info{
+        background-color: $info;
+        border-color: $info;
+    }
+    &-danger{
+        background-color: $danger;
+        border-color: $danger;
+    }
+}
+// border color
+.border{
+    &-primary{
+        border-color: $primary;
+    }
+    &-secondary{
+        border-color: $secondary;
+    }
+    &-success{
+        border-color: $success;
+    }
+    &-info{
+        border-color: $info;
+    }
+    &-danger{
+        border-color: $danger;
+    }
+}
+
+
+// Bg color
+.bg{
+    &-primary{
+        background: $primary ;
+    }
+    &-success{
+        background-color: $success;
+    }
+    &-info{
+        background: $info;
+    }
+    &-danger{
+        background: $danger ;
+    }
+}
+
+//space
+.m{
+    &t-5 , &y-5{
+        margin-top: $space-5;
+    }
+    &t-6 , &y-6{
+        margin-top: $space-6;
+    }
+    &t-7 , &y-7{
+        margin-top: $space-7;
+    }
+    &b-5 , &y-5{
+        margin-bottom: $space-5;
+    }
+    &b-6 , &y-6{
+        margin-bottom: $space-6;
+    }
+    &b-7 , &y-7{
+        margin-bottom: $space-7;
+    }
+    &l-5,&x-5{
+        margin-left: $space-5;
+    }
+    &r-5,&x-5{
+        margin-right: $space-5;
+    }
+    &l-6,&x-6{
+        margin-left: $space-6;
+    }
+    &r-6,&x-6{
+        margin-right: $space-6;
+    }
+    &r-7,&x-7{
+        margin-right: $space-7;
+    }    
+}
+.p{
+    &t-5 , &y-5{
+        padding-top: $space-5;
+    }
+    &t-6 , &y-6{
+        padding-top: $space-6;
+    }
+    &t-7 , &y-7{
+        padding-top: $space-7;
+    }
+    &b-5 , &y-5{
+        padding-bottom: $space-5;
+    }
+    &b-6 , &y-6{
+        padding-bottom: $space-6;
+    }
+    &b-7 , &y-7{
+        padding-bottom: $space-7;
+    }
+    &l-5,&x-5{
+        padding-left: $space-5;
+    }
+    &r-5,&x-5{
+        padding-right: $space-5;
+    }
+    &l-6,&x-6{
+        padding-left: $space-6;
+    }
+    &r-6,&x-6{
+        padding-right: $space-6;
+    }
+    &r-7,&x-7{
+        padding-right: $space-7;
+    }
+}
+
+//list style
+.list-style-disc {
+    list-style-type: disc;
+}
+
+
